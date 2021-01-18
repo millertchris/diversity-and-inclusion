@@ -13,18 +13,19 @@ button {
 @mixin btn-base() {
 	position: relative;
 	display: inline-block;
-	padding: 3px 8px 3px 0;
+	padding: 10px 20px;
 
 	font-family: $sans-serif;
 	font-size: $mobile-font-size;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 600;
 	line-height: 1.4;
-	text-decoration: underline;
+	text-decoration: none;
+	text-align: center;
 
 	color: $btn-text-color;
 	background-color: $btn-bg-color;
-	border: none;
+	border: 1px solid;
 	border-radius: $btn-border-radius;
 
 	transition: all $base-duration $base-timing;
@@ -49,31 +50,31 @@ button {
 	// @include link-underline($transparent, $black, $black, $yellow, $size: 1px);
 	// border-bottom: $base-border;
 
-	&:not(.prev):before {
-		content: '';
-		display: inline-block;
-		width: calc(100% - 38px);
-		height: 100%;
-		background-color: $black;
-		position: absolute;
-		top: 0;
-		left: 0;
-		z-index: -1;
-		opacity: 0;
-		transition: all $base-duration $base-timing;
-	}
+	// &:not(.prev):before {
+	// 	content: '';
+	// 	display: inline-block;
+	// 	width: calc(100% - 38px);
+	// 	height: 100%;
+	// 	background-color: $black;
+	// 	position: absolute;
+	// 	top: 0;
+	// 	left: 0;
+	// 	z-index: -1;
+	// 	opacity: 0;
+	// 	transition: all $base-duration $base-timing;
+	// }
 
-	&:not(.prev):after {
-		content: '';
-		display: inline-block;
-		width: 28px;
-		height: 15px;
-		margin-left: 10px;
-		background-repeat: no-repeat;
-		background-position: center;
-		transition: all $base-duration $base-timing;
-		transform: translateX(0);
-	}
+	// &:not(.prev):after {
+	// 	content: '';
+	// 	display: inline-block;
+	// 	width: 28px;
+	// 	height: 15px;
+	// 	margin-left: 10px;
+	// 	background-repeat: no-repeat;
+	// 	background-position: center;
+	// 	transition: all $base-duration $base-timing;
+	// 	transform: translateX(0);
+	// }
 	&.prev {
 		&:after {
 			content: '';
@@ -106,7 +107,9 @@ button {
 	}
 	&:hover {
 		// background-color: $btn-text-color;
-		color: $btn-text-color-hover;
+		// color: $btn-text-color-hover;
+		color: #000;
+		background: #fff;
 		&:before,
 		&.prev:after {
 			opacity: 1;
@@ -130,6 +133,7 @@ button {
 
 // Theme Buttons
 .block {
+	.btn,
 	.buttons .btn {
 		@include btn-base();
 	}
