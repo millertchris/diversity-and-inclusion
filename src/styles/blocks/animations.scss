@@ -1,0 +1,24 @@
+.line {
+	display: inline-block;
+	margin-bottom: -30px;
+}
+.block.hero.style-1 .col,
+.line,
+.word {
+	overflow: hidden;
+}
+// .splitting .char {
+// 	animation: slide-in 300s cubic-bezier(0.5, 0, 0.5, 1) both;
+// 	animation-delay: calc(3ms * var(--word-index) + 1000ms);
+// }
+
+@keyframes slide-in {
+	from {
+		transform: translateY(1.5em);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
