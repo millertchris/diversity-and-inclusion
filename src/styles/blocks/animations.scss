@@ -1,16 +1,25 @@
-.line {
-	display: inline-block;
-	margin-bottom: -30px;
-}
-.block.hero.style-1 .col,
-.line,
-.word {
+.block .title,
+.item-title {
+	margin: 0;
+	position: relative;
 	overflow: hidden;
+	flex: none;
 }
-// .splitting .char {
-// 	animation: slide-in 300s cubic-bezier(0.5, 0, 0.5, 1) both;
-// 	animation-delay: calc(3ms * var(--word-index) + 1000ms);
-// }
+
+.splitting .word {
+	transform: translateY(1.5em);
+	opacity: 0;
+}
+
+.animate {
+	.splitting .word {
+		transform: translateY(0);
+		opacity: 1;
+		transition: all 0.8s cubic-bezier(0.5, 0, 0.5, 1);
+		// animation: slide-in 0.8 cubic-bezier(0.5, 0, 0.5, 1) both;
+		// animation-delay: calc(3ms * var(--word-index) + 1000ms);
+	}
+}
 
 @keyframes slide-in {
 	from {
