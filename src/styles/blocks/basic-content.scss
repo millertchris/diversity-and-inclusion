@@ -13,8 +13,14 @@
 	}
 }
 
-.goals {
-	// display: flex;
-	// justify-content: space-between;
-	// flex-wrap: wrap;
+.box {
+	position: relative;
+	overflow: hidden;
+	.item {
+		transform: translateY(150%);
+		transition: 600ms all ease-in-out;
+		&.visible {
+			transform: translateY(0);
+		}
+	}
 }
