@@ -23,6 +23,10 @@
             }
         }
     }
+    .title {
+        font-size: 3em;
+        margin-bottom: 10px;
+    }
     // Left Column
     .block-title {
         line-height: 1;
@@ -59,10 +63,6 @@
                     height: 100%;
                     width: 100%;
                     object-fit:cover;
-                }
-                .image-title {
-                    font-size: 3em;
-                    margin-bottom: 10px;
                 }
             }
         }
