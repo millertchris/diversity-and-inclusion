@@ -27,7 +27,7 @@ module.exports = {
 				test: /\.(png|svg|jpg|jpeg|gif|mp3)$/i,
 				type: 'asset/resource',
 				generator: {
-					//If emitting file, the file path is
+					// If emitting file, the file path is
 					filename: 'images/[name][ext][query]',
 				},
 			},
