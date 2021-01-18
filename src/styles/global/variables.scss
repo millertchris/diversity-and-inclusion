@@ -32,10 +32,10 @@
 $file-path: '../../static/';
 
 // Typography
-// @font-face {
-// 	font-family: 'Morganite';
-// 	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
-// }
+@font-face {
+	font-family: 'Morganite';
+	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
+}
 
 $sans-serif: 'Inter', sans-serif;
 
