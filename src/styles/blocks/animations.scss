@@ -1,9 +1,10 @@
 .line {
 	display: inline-block;
-	overflow: hidden;
 	margin-bottom: -30px;
 }
-.block.hero.style-1 .col {
+.block.hero.style-1 .col,
+.line,
+.word {
 	overflow: hidden;
 }
 // .splitting .char {

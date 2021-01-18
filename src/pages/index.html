@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+	<style>
+		.hidden {
+			opacity: 0;
+		}
+
+		.visible {
+			opacity: 1;
+			transition: opacity 1s ease-out;
+		}
+	</style>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Diversity and Inclusion</title>
@@ -11,6 +21,9 @@
 </head>
 
 <body>
+	<script>
+		document.body.className = 'hidden';
+	</script>
 	<div id="app">
 		<%= require('html-loader!../components/header.html') %>
 
