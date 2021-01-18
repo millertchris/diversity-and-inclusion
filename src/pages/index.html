@@ -59,107 +59,109 @@
 						</div>
 					</div>
 				</div>
+			</div>
 
-				<div class="block basic-content align-right">
-					<div class="wrapper">
-						<div class="row">
-							<div class="col">
-								<h2>Goals</h2>
-								<p>Create a set of programs to ensure that the next hire in each department is an
-									underrepresented person of color.
-									Internally, we will commit to education, training, and discussions to hold ourselves
-									accountable.</p>
-								<div class="goals">
+			<div class="block basic-content align-right">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col">
+							<h2>Goals</h2>
+							<p>Create a set of programs to ensure that the next hire in each department is an
+								underrepresented person of color.
+								Internally, we will commit to education, training, and discussions to hold ourselves
+								accountable.</p>
+							<div class="goals">
+								<div class="goal">
+									<div class="stat">
+										<span class="line">
+											<span class="thin">Mentor</span> 10 <span class="thin">people of
+												color</span>
+										</span>
+									</div>
 									<div class="goal">
 										<div class="stat">
 											<span class="line">
-												<span class="thin">Mentor</span> 10 <span class="thin">people of
+												<span class="thin">Find</span> 20 <span class="thin">qualified
+													candidates</span>
+											</span>
+										</div>
+									</div>
+									<div class="goal">
+										<div class="stat">
+											<span class="line">
+												<span class="thin">Hire</span> 3 <span class="thin">people of
 													color</span>
 											</span>
 										</div>
-										<div class="goal">
-											<div class="stat">
-												<span class="line">
-													<span class="thin">Find</span> 20 <span class="thin">qualified
-														candidates</span>
-												</span>
-											</div>
-										</div>
-										<div class="goal">
-											<div class="stat">
-												<span class="line">
-													<span class="thin">Hire</span> 3 <span class="thin">people of
-														color</span>
-												</span>
-											</div>
-										</div>
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
 
-					<div class="block cards">
-						<div class="wrapper">
-							<div class="row">
-								<div class="col">
-									<ul class="items">
-										<li class="item">
-											<h3 class="title">Mentorship</h3>
-											<p class="meta">Unpaid.</p>
-											<p class="details">Our staff volunteers their time and expertise to help
-												mentor
-												people of color and under-represented minority groups who
-												would like to excel in the areas of: advertising, copywriting, design,
-												account
-												management, marketing, and website
-												development.</p>
-											<a href="#" class="btn">Contact for mentorship</a>
-										</li>
-										<li class="item">
-											<h3 class="title">Intership</h3>
-											<p class="meta">Some pay.</p>
-											<p class="details">Every year, we open internship opportunities for students
-												or
-												fresh graduates to work alongside our team.</p>
-											<a href="#" class="btn">Apply for internship</a>
-										</li>
-										<li class="item">
-											<h3 class="title">Career</h3>
-											<p class="meta">Full-time / part-time paid hire.</p>
-											<p class="details">While we don’t always have jobs available, we are always
-												developing our pool of people we love to work with. We post
-												active job openings on LinkedIn, but if you’d like to start connecting,
-												let’s
-												grab coffee.</p>
-											<a href="#" class="btn">Reach out</a>
-										</li>
-									</ul>
-								</div>
+			<div class="block cards">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col">
+							<ul class="items">
+								<li class="item">
+									<h3 class="title">Mentorship</h3>
+									<p class="meta">Unpaid.</p>
+									<p class="details">Our staff volunteers their time and expertise to help
+										mentor
+										people of color and under-represented minority groups who
+										would like to excel in the areas of: advertising, copywriting, design,
+										account
+										management, marketing, and website
+										development.</p>
+									<a href="#" class="btn">Contact for mentorship</a>
+								</li>
+								<li class="item">
+									<h3 class="title">Intership</h3>
+									<p class="meta">Some pay.</p>
+									<p class="details">Every year, we open internship opportunities for students
+										or
+										fresh graduates to work alongside our team.</p>
+									<a href="#" class="btn">Apply for internship</a>
+								</li>
+								<li class="item">
+									<h3 class="title">Career</h3>
+									<p class="meta">Full-time / part-time paid hire.</p>
+									<p class="details">While we don’t always have jobs available, we are always
+										developing our pool of people we love to work with. We post
+										active job openings on LinkedIn, but if you’d like to start connecting,
+										let’s
+										grab coffee.</p>
+									<a href="#" class="btn">Reach out</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<%= require('html-loader!../blocks/listing.html') %>
+
+				<div class="block cta">
+					<div class="wrapper">
+						<div class="row">
+							<div class="col">
+								<h2 class="title">What to learn more about who we are?</h2>
+							</div>
+							<div class="col">
+								<a href="#" class="btn">Read more</a>
 							</div>
 						</div>
 					</div>
+				</div>
 
-					<%= require('html-loader!../blocks/listing.html') %>
+				<%= require('html-loader!../components/footer.html') %>
 
-						<div class="block cta">
-							<div class="wrapper">
-								<div class="row">
-									<div class="col">
-										<h2 class="title">What to learn more about who we are?</h2>
-									</div>
-									<div class="col">
-										<a href="#" class="btn">Read more</a>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<%= require('html-loader!../components/footer.html') %>
-
-							<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
-							<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
-							<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
+					<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+					<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.3.4/gsap.min.js"></script>
 </body>
 
 </html>
