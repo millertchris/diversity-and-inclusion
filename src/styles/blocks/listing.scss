@@ -3,13 +3,24 @@
     width: 100%;
     .row {
         display: flex;
+        flex-direction: column;
+        width:100%;
+        @include tablet-landscape-up {
+            flex-direction: row;
+        }
     }
     .col {
+        position: relative;
+        flex: 1 0 100%;
         &:nth-of-type(1) {
-            flex: 1 0 30%;
+            @include tablet-landscape-up {
+                flex: 1 0 30%;
+            }
         }
         &:nth-of-type(2) {
-            flex: 1 0 70%;
+            @include tablet-landscape-up {
+                flex: 1 0 70%;
+            }
         }
     }
     // Left Column
@@ -23,6 +34,7 @@
     .items {
         display: flex;
         margin-bottom: 60px;
+
     }
     .item {
         width: 250px;
