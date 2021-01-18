@@ -1,10 +1,10 @@
-@import "positioning";
-@import "type";
+@import 'positioning';
+@import 'type';
 
 @mixin lightbox() {
 	&:before {
-		content: "";
-		background-image: url($img-path + "search.svg");
+		content: '';
+		background-image: url($file-path + 'search.svg');
 		background-color: $black;
 		background-size: 50%;
 		background-repeat: no-repeat;
@@ -80,7 +80,7 @@
 // Mixins required for Bitters
 @mixin clearfix {
 	&:after {
-		content: "";
+		content: '';
 		display: table;
 		clear: both;
 	}
@@ -108,7 +108,7 @@ $all-text-inputs-invalid: "[type='color']:invalid, [type='date']:invalid, [type=
 
 	width: 0;
 	height: 0;
-	content: "";
+	content: '';
 	z-index: 2;
 	transform: scale(1.01);
 	font-size: 0;

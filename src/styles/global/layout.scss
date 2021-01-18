@@ -4,10 +4,9 @@ html {
 }
 
 .block {
-	margin: 0 auto 200px;
-	&:last-of-type.hero.style-2 {
-		margin-bottom: 0;
-	}
+	margin-bottom: 45px;
+	padding: 30px 0;
+	border: 1px dotted blue;
 }
 
 *,
@@ -41,9 +40,9 @@ body {
 .wp-block-group__inner-container {
 	max-width: $site-width;
 	margin: auto;
-	padding: 0 2rem;
+	padding: 0 30px;
 	@include tablet-landscape-up {
-		padding: 0 1.2rem;
+		padding: 0 60px;
 	}
 }
 .wp-block-group__inner-container {
