@@ -32,12 +32,6 @@
 $file-path: '../../static/';
 
 // Typography
-<<<<<<< HEAD
-@font-face {
-	font-family: 'Morganite';
-	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
-}
-=======
 // @font-face {
 // 	font-family: 'Morganite';
 // 	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
@@ -60,7 +54,6 @@ $file-path: '../../static/';
 //   font-weight: normal;
 //   font-style: normal;
 // }
->>>>>>> 151f9a3e797c1422a8114d6f615746170637db52
 
 $base-font-family: 'Avuhneer', Helvetica, Arial, sans-serif;
 $heading-font-family: 'Morganite', Helvetica, Arial, sans-serif;
