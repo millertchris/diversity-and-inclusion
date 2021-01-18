@@ -24,7 +24,7 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(png|svg|jpg|jpeg|gif|mp3|woff)$/i,
+				test: /\.(png|svg|jpg|jpeg|gif|mp3|woff|eot|ttf)$/i,
 				type: 'asset/resource',
 				generator: {
 					// If emitting file, the file path is
@@ -56,6 +56,12 @@ module.exports = {
 			// Load a custom template (lodash by default)
 			filename: 'index.html',
 			template: 'src/pages/index.html',
+		}),
+		new HtmlWebpackPlugin({
+			title: 'Development',
+			// Load a custom template (lodash by default)
+			filename: 'in-progress.html',
+			template: 'src/pages/in-progress.html',
 		}),
 		new MiniCssExtractPlugin({
 			// Options similar to the same options in webpackOptions.output
