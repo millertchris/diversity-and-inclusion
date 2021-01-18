@@ -1,2 +1,21 @@
 .block.cards {
+	padding: 100px 0;
+	color: #fff;
+	background: #000;
+	ul {
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.items {
+		display: flex;
+		justify-content: space-between;
+	}
+	.item {
+		width: 100%;
+		max-width: 420px;
+		height: 500px;
+		padding: 20px;
+		border: 1px solid #fff;
+	}
 }
