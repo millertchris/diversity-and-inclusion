@@ -1,5 +1,19 @@
 .block.basic-content {
+	&.align-right {
+		.row {
+			margin-left: auto;
+		}
+	}
 	.row {
 		max-width: 600px;
 	}
+	.stat {
+		@include heading-style(8em, 1);
+	}
+}
+
+.goals {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
 }
