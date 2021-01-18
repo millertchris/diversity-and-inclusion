@@ -14,6 +14,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	});
 
 	vue();
-	Splitting();
 	headlines();
 });

@@ -6,6 +6,8 @@ export default function headlines() {
 	// Stuff here
 	console.log('Running animations');
 
+	Splitting();
+
 	var mightyBlocks = document.querySelectorAll('.block');
 	for (var i = 0; i < mightyBlocks.length; i++) {
 		var mightyBlock = mightyBlocks[i];
