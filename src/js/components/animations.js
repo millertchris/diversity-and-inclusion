@@ -1,8 +1,11 @@
 import gsap from 'gsap';
+import LocomotiveScroll from 'locomotive-scroll';
 
 export default function headlines() {
 	// Stuff here
 	console.log('Running animations');
+
+	const scroll = new LocomotiveScroll();
 
 	let DOM = {
 		content: {
@@ -21,7 +24,7 @@ export default function headlines() {
 	};
 
 	const timelineSettings = {
-		staggerValue: 0.014,
+		staggerValue: 0.01,
 		charsDuration: 0.5,
 	};
 	const timeline = gsap
@@ -37,7 +40,7 @@ export default function headlines() {
 		// Stagger the animation of the home section chars
 		.staggerTo(
 			DOM.content.home.label,
-			2,
+			1.5,
 			{
 				ease: 'Power3.easeIn',
 				x: '0%',
