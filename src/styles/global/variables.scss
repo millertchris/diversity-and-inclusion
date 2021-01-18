@@ -25,22 +25,28 @@
 	}
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+// Morganite-Bold.woff
 
 // Paths
-$img-path: "../../static/";
+$file-path: '../../static/';
 
 // Typography
-$sans-serif: "Inter", sans-serif;
+// @font-face {
+// 	font-family: 'Morganite';
+// 	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
+// }
 
-$base-font-family: "Inter";
-$heading-font-family: "Inter";
+$sans-serif: 'Inter', sans-serif;
+
+$base-font-family: 'Inter';
+$heading-font-family: 'Morganite';
 
 // Font Size
-$base-font-size: 25px;
-$desktop-font-size: 22px;
-$tablet-font-size: 20px;
-$mobile-font-size: 18px;
+$base-font-size: 17px;
+$desktop-font-size: 17px;
+$tablet-font-size: 17px;
+$mobile-font-size: 17px;
 
 // Line Height
 $base-line-height: 1.84;
@@ -71,7 +77,7 @@ $black: #000000;
 $white: #ffffff;
 $transparent: rgba(255, 255, 255, 0);
 
-$primary: $black;
+$primary: $white;
 $secondary: $yellow;
 $links: $primary;
 $hover: $secondary;
@@ -81,12 +87,12 @@ $base-font-color: #000;
 $action-color: $primary;
 $error-color: $red;
 
-$base-font-color: $black;
+$base-font-color: $white;
 $color-selection: $light-gray;
 
 // Buttons
 $btn-bg-color: $transparent;
-$btn-text-color: $black;
+$btn-text-color: $white;
 $btn-text-color-hover: $white;
 $btn-border-radius: 0;
 
@@ -95,7 +101,7 @@ $base-border-color: $black;
 $base-border: 3px solid $base-border-color;
 
 // Background Colors
-$viewport-background-color: $white;
+$viewport-background-color: $black;
 
 // Focus
 $focus-outline-color: $black;
