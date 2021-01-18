@@ -24,10 +24,10 @@ module.exports = {
 	module: {
 		rules: [
 			{
-				test: /\.(png|svg|jpg|jpeg|gif|mp3)$/i,
+				test: /\.(png|svg|jpg|jpeg|gif|mp3|woff)$/i,
 				type: 'asset/resource',
 				generator: {
-					//If emitting file, the file path is
+					// If emitting file, the file path is
 					filename: 'images/[name][ext][query]',
 				},
 			},
