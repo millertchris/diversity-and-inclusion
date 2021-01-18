@@ -1,0 +1,74 @@
+.component.notification,
+.component.cookie-notice {
+	text-align: center;
+	.row {
+		padding: 0.4rem 0;
+	}
+	&.hide {
+		display: none;
+	}
+	.close {
+		position: absolute;
+		top: 50%;
+		right: 0;
+		transform: translateY(-50%);
+	}
+	.toggle-wrapper {
+		display: block;
+	}
+	button {
+		@include clearBtn;
+	}
+	h2 {
+		margin: 0;
+		font-family: $base-font-family;
+	}
+	h2,
+	p,
+	a,
+	button {
+		display: inline;
+		font-size: 0.88rem;
+		line-height: 1;
+	}
+	a {
+		text-decoration: underline;
+	}
+}
+
+.component.notification {
+	position: relative;
+	color: $base-font-color;
+	background: $secondary;
+	.wrapper {
+		padding: 0 2.4rem;
+	}
+	.close {
+		right: calc(1.2rem - 0.565rem);
+		padding: 0.4rem 0.565rem;
+	}
+}
+
+.component.cookie-notice {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+
+	color: $white;
+	background: $black;
+	z-index: 10;
+
+	button {
+		padding: 0 0.4rem;
+		color: $white;
+		text-decoration: underline;
+		&:first-of-type {
+			margin-left: 0.4rem;
+		}
+	}
+	a {
+		color: $white;
+	}
+}
