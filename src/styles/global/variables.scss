@@ -36,40 +36,37 @@ $file-path: '../../static/';
 	font-family: 'Morganite';
 	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
 }
-// @font-face {
-// 	font-family: 'Avuhneer';
-// 	src: url($file-path + '/fonts/AvenirNext-Regular.eot?#iefix')
-// 			format('embedded-opentype'),
-// 		url($file-path + '/fonts/AvenirNext-Regular.woff')
-// 			format('woff'),
-// 		url($file-path + '/fonts/AvenirNext-Regular.ttf')
-// 			format('truetype'),
-// 		url($file-path + '/fonts/AvenirNext-Regular.svg#AvenirNext-Regular')
-// 			format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'Avuhneer-Bold';
-// 	src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix')
-// 			format('embedded-opentype'),
-// 		url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
-// 		url($file-path + '/fonts/AvenirNext-Bold.ttf')
-// 			format('truetype'),
-// 		url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold')
-// 			format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
-// @font-face {
-//   font-family: 'Avuhneer-Bold';
-//   src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
-//   url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
-//   url($file-path + '/fonts/AvenirNext-Bold.ttf')  format('truetype'),
-//   url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
-//   font-weight: normal;
-//   font-style: normal;
-// }
+@font-face {
+	font-family: 'Avuhneer';
+	src: url($file-path + '/fonts/AvenirNext-Regular.eot?#iefix')
+			format('embedded-opentype'),
+		url($file-path + '/fonts/AvenirNext-Regular.woff') format('woff'),
+		url($file-path + '/fonts/AvenirNext-Regular.ttf') format('truetype'),
+		url($file-path + '/fonts/AvenirNext-Regular.svg#AvenirNext-Regular')
+			format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avuhneer-Bold';
+	src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix')
+			format('embedded-opentype'),
+		url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
+		url($file-path + '/fonts/AvenirNext-Bold.ttf') format('truetype'),
+		url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Avuhneer-Bold';
+	src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix')
+			format('embedded-opentype'),
+		url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
+		url($file-path + '/fonts/AvenirNext-Bold.ttf') format('truetype'),
+		url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
 
 $base-font-family: 'Avuhneer', Helvetica, Arial, sans-serif;
 $heading-font-family: 'Morganite', Helvetica, Arial, sans-serif;
@@ -84,7 +81,7 @@ $mobile-font-size: 18px;
 
 // Line Height
 $base-line-height: 1.84;
-$heading-line-height: 1.2;
+$heading-line-height: 1;
 
 // Font Weight
 $base-font-weight: 400;

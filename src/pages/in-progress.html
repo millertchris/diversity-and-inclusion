@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styleguide</title>
+    <script src="https://kit.fontawesome.com/15caa5e93e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="app">
+        <%= require('html-loader!../components/header.html') %>
+            <%= require('html-loader!../blocks/listing.html') %>
+
+                <div class="block basic-content">
+                    <div class="wrapper">
+                        <div class="row">
+                            <div class="col">
+                                <h1>Heading 1. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h1>
+                                <h2>Heading 2. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h2>
+                                <h3>Heading 3. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h3>
+                                <h4>Heading 4. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h4>
+                                <h5>Heading 5. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h5>
+                                <h6>Heading 6. Donec sed odio dui. Sed posuere consectetur est at lobortis.</h6>
+                                <p>This is a paragraph. Donec ullamcorper nulla non metus auctor fringilla. Aenean eu
+                                    leo quam.
+                                    Pellentesque
+                                    ornare sem lacinia quam venenatis
+                                    vestibulum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <%= require('html-loader!../components/footer.html') %>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
+</body>
+
+</html>
