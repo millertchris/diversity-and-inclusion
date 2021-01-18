@@ -17,7 +17,7 @@ export default function headlines() {
 			handler: function () {
 				this.element.classList.add('animate');
 			},
-			offset: '50%',
+			offset: '80%',
 		});
 	}
 
