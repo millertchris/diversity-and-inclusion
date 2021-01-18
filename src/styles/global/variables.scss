@@ -61,6 +61,15 @@ $file-path: '../../static/';
 // 	font-weight: normal;
 // 	font-style: normal;
 // }
+// @font-face {
+//   font-family: 'Avuhneer-Bold';
+//   src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix') format('embedded-opentype'),
+//   url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
+//   url($file-path + '/fonts/AvenirNext-Bold.ttf')  format('truetype'),
+//   url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
+//   font-weight: normal;
+//   font-style: normal;
+// }
 
 $base-font-family: 'Avuhneer', Helvetica, Arial, sans-serif;
 $heading-font-family: 'Morganite', Helvetica, Arial, sans-serif;
@@ -102,7 +111,7 @@ $black: #000000;
 $white: #ffffff;
 $transparent: rgba(255, 255, 255, 0);
 
-$primary: $black;
+$primary: $white;
 $secondary: $yellow;
 $links: $primary;
 $hover: $secondary;
