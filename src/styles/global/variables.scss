@@ -35,6 +35,14 @@ $file-path: '../../static/';
 @font-face {
 	font-family: 'Morganite';
 	src: url($file-path + '/fonts/Morganite-Bold.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Morganite';
+	src: url($file-path + '/fonts/Morganite-Light.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
 }
 @font-face {
 	font-family: 'Avuhneer';
@@ -54,18 +62,8 @@ $file-path: '../../static/';
 		url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
 		url($file-path + '/fonts/AvenirNext-Bold.ttf') format('truetype'),
 		url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
-	font-weight: normal;
-	font-style: normal;
-}
-@font-face {
-	font-family: 'Avuhneer-Bold';
-	src: url($file-path + '/fonts/AvenirNext-Bold.eot?#iefix')
-			format('embedded-opentype'),
-		url($file-path + '/fonts/AvenirNext-Bold.woff') format('woff'),
-		url($file-path + '/fonts/AvenirNext-Bold.ttf') format('truetype'),
-		url($file-path + '/fonts/AvenirNext-Bold.svg#AvenirNext-Bold') format('svg');
-	font-weight: normal;
-	font-style: normal;
+	font-weight: bold;
+	font-style: bold;
 }
 
 $base-font-family: 'Avuhneer', Helvetica, Arial, sans-serif;
