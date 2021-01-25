@@ -19,6 +19,9 @@
 		height: 100%;
 		backdrop-filter: blur(50px);
 	}
+	&.fade {
+		opacity: 0;
+	}
 }
 
 .block.listing {

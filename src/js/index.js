@@ -3,6 +3,7 @@ import '../styles/main.scss';
 import vue from './components/vue';
 import headlines from './components/animations';
 import portfolio from './components/portfolio';
+import animations from './components/anime';
 
 document.addEventListener('DOMContentLoaded', function () {
 	function doStuff(callback) {
@@ -17,4 +18,5 @@ document.addEventListener('DOMContentLoaded', function () {
 	vue();
 	headlines();
 	portfolio();
+	animations();
 });

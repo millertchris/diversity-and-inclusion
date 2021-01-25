@@ -15,9 +15,14 @@ export default function portfolio() {
 			console.log('Mouse over event');
 			console.log(newBG.getAttribute('src'));
 
+			portfolioBackground.classList.add('fade');
+
 			// Set the background color to a light gray
 			portfolioBackground.style.backgroundImage =
 				'url(' + newBG.getAttribute('src') + ')';
+			setTimeout(function () {
+				portfolioBackground.classList.remove('fade');
+			}, 200);
 		});
 	});
 }
